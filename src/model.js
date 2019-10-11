@@ -113,6 +113,7 @@ class Model extends React.Component{
     ,enableRotate: true
     ,enableZoom: true
     ,enabled: true
+    ,marginLeft:""
   }
 
   constructor(props){
@@ -139,7 +140,7 @@ class Model extends React.Component{
     var {lights} = this.state;
     return (
       <div  ref={node=>this.$container=node} data-loader={this.props.loader} 
-        style={this.style()}
+        style={this.props.style}
       >
         {
           
