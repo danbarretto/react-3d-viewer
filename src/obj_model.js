@@ -23,7 +23,7 @@ class ObjModel extends Model{
     var obj_loader = new THREE.OBJLoader()
     obj_loader.load(
       // resource URL
-      src,
+      require(src),
       // called when resource is loaded
       obj3d => {
 

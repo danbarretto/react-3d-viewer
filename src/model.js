@@ -113,7 +113,7 @@ class Model extends React.Component{
     ,enableRotate: true
     ,enableZoom: true
     ,enabled: true
-    ,marginLeft:""
+    ,style:""
   }
 
   constructor(props){
